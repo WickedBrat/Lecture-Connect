@@ -1,0 +1,62 @@
+﻿  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .pad-top {
+    padding-top:50px;
+  }
+  .pad-top-bottom {
+   padding-top:20px;
+   padding-bottom:30px;
+ }
+ .text-center {
+  text-align:center;
+}
+
+section {
+  padding:40px 0px 40px 0px;
+}
+p {
+  line-height:30px;
+  font-size:16px;
+  padding:10px 0px 10px 0px;
+}
+h1 {
+  font-weight: 900;
+  color:rgb(255, 15, 101);
+}
+#home-sec {
+  background: url(../img/home.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  color:#fff;
+}
+#home-sec .overlay {
+  padding-top:45px;
+  background:rgba(0, 0, 0, 0.80);
+  min-height:790px;
+}
+#home-sec .main-img {
+ max-height:200px;
+ border:5px solid rgb(255, 15, 101);
+ cursor:pointer;
+}
+
+#home-sec a,#home a:hover {
+  text-decoration:none;
+}
+
+#home-sec h1 {
+  font-weight: 900;
+  padding: 20px 0px 0px 0px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-body img {
+   width: 74px;
+}
