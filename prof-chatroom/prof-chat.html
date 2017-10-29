@@ -94,8 +94,8 @@
     localStorage.setItem("sourceLang", JSON.stringify("af-ZA"));
     function updateCountry() { 
       var lang = $("#select_language").val() ;
-      
-      localStorage.setItem("sourceLang", JSON.stringify(lang));
+      var res = lang.slice(0, 2);
+      localStorage.setItem("sourceLang", JSON.stringify(res));
       var carriage = prompt("You want to confirm your selection (y/n)");
       if (carriage === 'y' ||carriage === 'Y' ||carriage === 'Yes' ||carriage === 'YES' ||carriage === 'yes') {
         window.open('prof-chatroom.html')
